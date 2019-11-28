@@ -22,7 +22,7 @@ function randomnames_info()
 
 function randomnames_activate()
 {
-	
+	global $db;
 	$misc_randomnames = array(
         'title'        => 'misc_randomnames',
         'template'    => $db->escape_string('<html>
@@ -99,6 +99,7 @@ function randomnames_activate()
 
 function randomnames_deactivate()
 {
+	global $db;
 	$db->delete_query("templates", "title LIKE '%randomnames%'");
 }
 
