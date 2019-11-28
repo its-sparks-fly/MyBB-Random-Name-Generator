@@ -5,6 +5,6 @@ Die Seite erreicht ihr unter:
 euerforum.de/misc.php?action=randomnames
 
 # Beispiel aus meinem Forum:
-<img src="https://snipboard.io/DxiSjV.jpg /">
+<img src="https://snipboard.io/DxiSjV.jpg" />
 
 Viel Spaß.
